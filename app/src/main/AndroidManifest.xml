@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BiteSculptor"
         tools:targetApi="31">
         <activity
+            android:name=".Authentication_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
