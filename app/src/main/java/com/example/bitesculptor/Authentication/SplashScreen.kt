@@ -1,11 +1,11 @@
-package com.example.bitesculptor
+package com.example.bitesculptor.Authentication
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Handler
 import android.os.Looper
-import com.example.bitesculptor.Authentication.Authentication_Activity
+import com.example.bitesculptor.R
 
 class SplashScreen : AppCompatActivity() {
     private val DELAY_IN_MILLIS: Long = 2000
