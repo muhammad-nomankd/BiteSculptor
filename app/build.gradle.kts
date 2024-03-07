@@ -75,11 +75,9 @@ dependencies {
     implementation("com.google.android.gms:play-services-auth:21.0.0")
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation ("androidx.navigation:navigation-fragment-ktx:2.7.7")
-<<<<<<< HEAD
     implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
-=======
     implementation ("androidx.navigation:navigation-ui-ktx:2.7.7")
->>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
+
 
 
 }

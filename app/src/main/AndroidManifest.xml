@@ -33,10 +33,9 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-<<<<<<< HEAD
-=======
+
             android:label="@string/app_name"
->>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
+
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,10 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-<<<<<<< HEAD
-=======
-
->>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -28,12 +24,6 @@
         app:layout_constraintBottom_toBottomOf="@id/title"
         app:layout_constraintStart_toEndOf="@id/title"
         app:layout_constraintTop_toTopOf="@id/title"/>
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/main_bottom_navigation_view"
         android:layout_width="match_parent"
@@ -50,12 +40,9 @@
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
-<<<<<<< HEAD
-=======
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
->>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@id/main_bottom_navigation_view"
         app:layout_constraintEnd_toEndOf="parent"
