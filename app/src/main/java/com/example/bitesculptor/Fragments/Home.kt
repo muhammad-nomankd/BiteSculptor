@@ -10,7 +10,10 @@ import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.interfaces.ItemClickListener
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.bitesculptor.R
+<<<<<<< HEAD
 
+=======
+>>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
 class Home : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,6 +23,7 @@ class Home : Fragment() {
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
+<<<<<<< HEAD
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val arrayslide=ArrayList<SlideModel>()
@@ -45,5 +49,7 @@ class Home : Fragment() {
         })
     }
 
+=======
+>>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
 
 }

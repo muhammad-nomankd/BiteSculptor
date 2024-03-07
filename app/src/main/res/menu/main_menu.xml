@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
     <item android:id="@+id/cart"
     android:title="@string/cart"
     android:icon="@drawable/cart"/>
@@ -8,6 +9,15 @@
         android:title="@string/search"
         android:icon="@drawable/search"/>
     <item android:id="@+id/home"
+=======
+    <item android:id="@+id/home"
+    android:title="@string/cart"
+    android:icon="@drawable/cart"/>
+    <item android:id="@+id/cart"
+        android:title="@string/search"
+        android:icon="@drawable/search"/>
+    <item android:id="@+id/search"
+>>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
         android:title="@string/home"
         android:icon="@drawable/home_icon"/>
     <item android:id="@+id/history"

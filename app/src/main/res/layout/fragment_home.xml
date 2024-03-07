@@ -20,6 +20,7 @@
         android:id="@+id/image_slider"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         app:iss_auto_cycle="true"
         android:scrollIndicators="none"
         app:iss_period="2000"
@@ -29,3 +30,9 @@
         tools:ignore="MissingConstraints" />
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+        android:gravity="center"
+        android:text="Home" />
+
+</FrameLayout>
+>>>>>>> d27a2c57f1743df96eb724cc95c415b620071fa6
