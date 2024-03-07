@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     android:id="@+id/Authentication_Activity"
-    tools:context=".Authentication_Activity">
+    tools:context=".Authentication.Authentication_Activity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

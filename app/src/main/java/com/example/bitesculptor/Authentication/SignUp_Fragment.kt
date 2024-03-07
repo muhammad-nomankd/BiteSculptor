@@ -1,4 +1,4 @@
-package com.example.bitesculptor
+package com.example.bitesculptor.Authentication
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.TextView
+import com.example.bitesculptor.R
 
 
 class SignUp_Fragment : Fragment() {
@@ -29,7 +30,7 @@ class SignUp_Fragment : Fragment() {
         val alrdyhanaccount:TextView=view.findViewById(R.id.already_have_account)
         alrdyhanaccount.setOnClickListener {
             fragmentManager?.beginTransaction()
-                ?.replace(R.id.Authentication_Activity,Login_Fragment())
+                ?.replace(R.id.Authentication_Activity, Login_Fragment())
                 ?.commit()
 
         }

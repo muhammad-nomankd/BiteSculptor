@@ -1,12 +1,12 @@
-package com.example.bitesculptor
+package com.example.bitesculptor.Authentication
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import com.example.bitesculptor.R
 
 class Login_Fragment : Fragment() {
 
@@ -21,7 +21,7 @@ class Login_Fragment : Fragment() {
         val gotosignup:TextView=view.findViewById(R.id.dhaccount)
         gotosignup.setOnClickListener {
       fragmentManager?.beginTransaction()
-          ?.replace(R.id.Authentication_Activity,SignUp_Fragment())
+          ?.replace(R.id.Authentication_Activity, SignUp_Fragment())
           ?.commit() }
     }
 

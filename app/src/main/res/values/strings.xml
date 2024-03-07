@@ -2,4 +2,23 @@
     <string name="app_name">BiteSculptor</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_with">Login with</string>
+    <string name="or">Or</string>
+    <string name="password">password</string>
+    <string name="mail">mail</string>
+    <string name="savor_the_taste_delivered_to_your_door">Savor the taste, delivered to your door</string>
+    <string name="dont_have_account">Don\'t have an Account?</string>
+    <string name="login">Login</string>
+    <string name="designed_by_mnkd">Designed by mnkd</string>
+    <string name="txt">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="choose_your_location">Choose Your Location</string>
+    <string name="to_enhance_your_delivery_experience_and_ensure_your_order_reaches_you_accurately_and_promptly_please_grant_us_access_to_your_precise_location_your_convenience_is_our_priority">To enhance your delivery experience and ensure your order reaches you accurately and promptly, please grant us access to your precise location. Your convenience is our priority. 🌍🚀</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="search">Search</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+
 </resources>
